@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color:rgb(63, 115, 135);
+    margin: 0;
+}
+  .container{
+    position: fixed; 
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 10;
+  }
+nav{
+    display: flex;
+    color: #3d4152;
+    background-color: rgba(255, 255, 255);
+    justify-content: space-around;
+    border-radius: 2px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    border: 3px solid rgba(255, 255, 255); box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.251); 
+}
+.logo img{
+    cursor: pointer;
+}
+.logo h2{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    top: 15px;
+    font-weight: 900;
+    font-family: "Poppins", sans-serif;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+.fas {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+nav ul li a{
+    color: #3d4152;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: orange;
+}
+.logo h2:hover{
+    color: orange;
+}
+.coporate{
+    color: #3d4152;
+}
+.logo img{
+    transition: transform 0.3s ease-in-out;
+}
+.logo img:hover{
+    transform: scale(1.2);
+}
+.heading h1{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+    font-family:"Poppins", sans-serif; ;
+}
+.heading p{
+    margin-left: 10%;
+    color: white;
+    margin-top: 0px;
+    font-family:"Poppins", sans-serif; ;
+}
+.help{
+    background-color: white;
+    display: flex;
+    margin:0 7%;
+    font-family:"Poppins", sans-serif; 
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.251); 
+}
+.option{
+    margin-top: 45px;
+    margin-left: 5%;
+    background-color: rgb(245, 245, 245);
+    padding:0 5% 0 5%;
+}
+.option p{
+    margin-top: 20%;
+    font-weight: 600;
+    cursor: pointer;
+}
+#question{
+    margin-left: 5%;
+    margin-top: 45px;
+}
+#question p{
+    margin-top: 3%;
+    cursor: pointer;
+}
+#question p:hover{
+    color: orange;
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+   
+}
+
+nav{
+
+   background-color: #FE5005;
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+
+nav ul{
+
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 110px;
+    
+}
+
+nav ul li a{
+
+  color: white;
+  padding: 32px;
+  text-decoration: none;
+}
+
+header{
+    
+    background-color: #FE5005;
+    color: white;
+    font-family:var(--font-headings, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif); ;
+    font-weight: 150;
+    font-size: larger;
+}
+
+.About_Swiggy{
+      
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 110%;
+}
+
+.Bike_And_Instamart_Image{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+
+    padding: 5rem;
+    margin: 3% 15%;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap:25px;
+    height: 50px;
+    
+}
+
+.M{
+
+    font-family: "popins",sans-serif;
+    font-size: large;
+    color:rgb(152, 151, 151);
+    background: white;
+    cursor: pointer;
+    border:2px solid rgb(152, 151, 151);
+    border-radius: 50px;
+}
+
+
+.V{
+
+    font-family: "popins",sans-serif;
+    font-size: large;
+    color:rgb(152, 151, 151);
+    background: white;
+    cursor: pointer;
+    border:2px solid rgb(152, 151, 151);
+    border-radius: 50px;
+}
+
+.VS{
+
+    font-family: "popins",sans-serif;
+    font-size: large;
+    color:rgb(152, 151, 151);
+    background: white;
+    cursor: pointer;
+    border:2px solid rgb(152, 151, 151);
+    border-radius: 50px;
+}
+
+.W{
+
+    font-family: "popins",sans-serif;
+    font-size: large;
+    color:rgb(152, 151, 151);
+    background: white;
+    cursor: pointer;
+    border:2px solid rgb(152, 151, 151);
+    border-radius: 50px;
+
+}
+
+.M:hover{
+    background-color:#FE5005;
+    color: white;
+    border:2px solid #FE5005;
+}
+
+.V:hover{
+    background-color:#FE5005;
+    color: white;
+    border:2px solid #FE5005;
+
+}
+
+.VS:hover{
+    background-color:#FE5005;
+    color: white;
+    border:2px solid #FE5005;
+
+}
+
+.W:hover{
+    background-color:#FE5005;
+    color: white;
+    border:2px solid #FE5005;
+
+}
+
+
+
+.Swiggy_Mission{
+
+display:flex ;
+justify-content:space-evenly;
+margin: -5% 10%;
+font-family: "Poppins", sans-serif;
+font-size: 18px;
+font-weight: 300;
+
+}
+
+.Mission_Right{
+    padding-top: 14%;
+    color: black;
+}
+
+.Mission_Content{
+
+    color: rgb(152, 151, 151);
+    padding-top: 3%;
+}
+
+
+.Swiggy_Industry_Pioneer{
+
+    display:flex ;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    padding-top: 150px ;
+    margin: 0 10%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    
+    }
+
+.Industry_Pioneer_H{
+
+    padding-top: 0%;
+    color: black;
+    font-weight:110px ;
+}
+
+.Industry_Pioneer_Content{
+
+    color: rgb(152, 151, 151);
+    padding-top: 3%;
+}
+
+.Image_Section_Break{
+
+    background-color: black;   
+}
+
+.footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 20rem 2rem 20rem;
+    
+}
+
+.footer_H{
+
+    padding: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.Image_PS{
+
+    cursor:pointer;
+}
+
+.Image_AS{
+
+cursor: pointer;
+}
+
+hr{
+
+   margin: 5rem;
+}
